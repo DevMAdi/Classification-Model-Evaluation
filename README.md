@@ -1,7 +1,7 @@
 ### 	False positive & False negative
 False positive- an outcome where the model incorrectly predicts the positive class. When a data point is classified as a negative example(say class 0) but it is actually a positive example(belongs to class 1). 
 
-    Type 1 error
+>Type 1 error
 
 False negative- an outcome where the model incorrectly predicts the negative class. When a data point is classified as a positive example(say class 1) but it is actually a negative example(belongs to class 0).
 
@@ -44,7 +44,9 @@ in that case= tn= 9850, fp= 0, fn= 150, tp= 0
 Even Though accuracy increase, this is not good logic.
 
 # 	CAP Curve
+
 **check this out later:**
+
 https://www.geeksforgeeks.org/python-cap-cumulative-accuracy-profile-analysis/
 https://analyticsindiamag.com/cumulative-accuracy-profile-cap-curve-analysis-classification-prediction/
 
@@ -64,9 +66,8 @@ Cumulative accuracy profile (CAP) not equal to Reciever Operating characteristic
 close to crystal ball- better
 close to blue line- worse
 
-    							area btn ideal line & blue line
-    Accuracy Ratio(AR)= 	  ------------------------------------
-    							 area btn red line & blue line
+    							
+    Accuracy Ratio(AR)= area btn ideal line & blue / area btn red line & blue line
 
 close AR to one, the better
 
